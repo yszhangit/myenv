@@ -21,7 +21,7 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 
 set tabstop=4 softtabstop=4 expandtab
-"colorscheme badwolf
+colorscheme badwolf
 syntax enable
 set cursorline
 set cursorcolumn
@@ -49,3 +49,5 @@ set pastetoggle=<F2>
 set mouse+=a
 
 " set spell spelllang=en
+"
+autocmd FileType tf setlocal shiftwidth=2 softtabstop=2 expandtab
